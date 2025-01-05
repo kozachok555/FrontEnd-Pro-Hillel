@@ -1,5 +1,14 @@
 "use strict";
 
+require("core-js/modules/es.symbol.js");
+require("core-js/modules/es.symbol.description.js");
+require("core-js/modules/es.array.concat.js");
+require("core-js/modules/es.array.find.js");
+require("core-js/modules/es.array.splice.js");
+require("core-js/modules/es.object.keys.js");
+require("core-js/modules/es.object.to-string.js");
+require("core-js/modules/es.string.trim.js");
+require("core-js/modules/web.dom-collections.for-each.js");
 $(document).ready(function () {
   var LOCAL_STORAGE_USERS_VALUE = "users-value";
   function saveToLocalStorage(data) {

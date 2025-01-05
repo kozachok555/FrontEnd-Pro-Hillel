@@ -5,6 +5,13 @@
     "@babel/preset-env": "^7.26.0"
   },
   "scripts": {
-    "build": "babel dist/main.js --out-dir dist"
+    "build": "babel HWLesson20 --out-dir dist"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "IE 11"
+  ],
+  "dependencies": {
+    "core-js": "^3.39.0"
   }
 }
