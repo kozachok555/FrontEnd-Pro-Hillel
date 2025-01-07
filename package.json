@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  },
+  "dependencies": {
+    "dist": "^0.1.2"
+  }
+}
